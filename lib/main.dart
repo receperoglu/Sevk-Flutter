@@ -29,19 +29,18 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: blueColor,
-          title: const Text("Sevkiyat"),
-          leading: const Icon(
-            Icons.list_alt_sharp,
+          appBar: AppBar(
+            backgroundColor: blueColor,
+            title: const Text("Sevkiyat"),
+            leading: const Icon(
+              Icons.list_alt_sharp,
+            ),
+            actions: [
+              IconButton(
+                  onPressed: () => {}, icon: const Icon(Icons.add_circle_sharp))
+            ],
           ),
-          actions: [
-            IconButton(
-                onPressed: () => {}, icon: const Icon(Icons.add_circle_sharp))
-          ],
-        ),
-        body:    OrderList()
-      ),
+          body: const OrderList()),
     );
   }
 }

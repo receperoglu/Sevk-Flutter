@@ -34,7 +34,6 @@ class _FormKontrolState extends State<FormKontrol> {
                 margin: const EdgeInsets.only(bottom: 20),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-
                 ),
                 child: const Text(
                   " Üye Ol",

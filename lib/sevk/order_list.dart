@@ -45,7 +45,7 @@ GestureDetector orderItem(context, articel) {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                 child: Column(
+                child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -58,7 +58,7 @@ GestureDetector orderItem(context, articel) {
                   ],
                 ),
               ),
-             const Icon(Icons.keyboard_arrow_right)
+              const Icon(Icons.keyboard_arrow_right)
             ],
           ),
         ),

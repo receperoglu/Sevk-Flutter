@@ -10,7 +10,7 @@ class OrderListController extends GetxController {
     isLoading = true;
     update();
     try {
-      var res = await HttpService().getApi("Articels/All");
+      var res = await HttpService().getApi("Articels");
       articelList.addAll(
           List<Articles>.from((res).map((e) => Articles.fromJson(e)).toList()));
     } catch (e) {
